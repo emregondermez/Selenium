@@ -11,7 +11,7 @@ public class C01_FirstClass {
 
     driver.get("https://www.amazon.com");
 
-    Thread.sleep(3000);
+
     driver.close();
 
     }
