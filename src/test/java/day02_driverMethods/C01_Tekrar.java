@@ -16,12 +16,9 @@ public class C01_Tekrar {
         WebDriver driver = new ChromeDriver();
 
     driver.get("https://www.amazon.com");
-
     Thread.sleep(5000);
     driver.close();
-
-
-    }
+ }
 
 
 }
