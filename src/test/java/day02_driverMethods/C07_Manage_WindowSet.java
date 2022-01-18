@@ -20,8 +20,8 @@ public class C07_Manage_WindowSet {
         //4. Sayfanin konumunu ve boyutunu istediginiz sekilde ayarlayin
         driver.manage( ).window( ).setPosition(new Point(800,600));
         driver.manage( ).window( ).setSize(new Dimension(300,500));
-        //5. Sayfanin sizin istediginiz konum ve boyuta geldigini test edin
+        //5. Sayfayi kapatin
+        driver.close();
 
-        //8. Sayfayi kapatin
     }
 }
