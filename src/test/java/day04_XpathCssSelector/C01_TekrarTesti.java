@@ -27,6 +27,7 @@ public class C01_TekrarTesti {
         System.out.println(amauntOfTheElements.getText());
 
         //    d. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
+        //    d. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
         WebElement firstResuld = driver.findElement(By.className("s-image"));
         firstResuld.click();
         Thread.sleep(3000);
