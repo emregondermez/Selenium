@@ -23,14 +23,16 @@ public class C01_TekrarTesti {
         searchBox.sendKeys("city bike");
         searchBox.submit();
         //    c. Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
-        WebElement amauntOfTheElements = driver.findElement(By.className("sg-col-inner"));
-        System.out.println(amauntOfTheElements.getText());
+       // WebElement amauntOfTheElements = driver.findElement(By.className("sg-col-inner"));
+        WebElement asd = driver.findElement(By.xpath("//div[@class='sg-col-14-of-20 sg-col s-breadcrumb sg-col-10-of-16 sg-col-6-of-12']"));
+        System.out.println(asd.getText());
+        // System.out.println(amauntOfTheElements.getText());
 
         //    d. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
         WebElement firstResuld = driver.findElement(By.className("s-image"));
         firstResuld.click();
         Thread.sleep(3000);
-        driver.close();
+       // driver.close();
 
     }
 }
